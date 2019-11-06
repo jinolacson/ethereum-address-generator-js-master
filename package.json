@@ -1,0 +1,21 @@
+{
+  "name": "creating-accounts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify main.js -o bundle.js",
+    "reload": "reload -p 8081"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bip39": "^3.0.2",
+    "ethereumjs-tx": "^2.1.1",
+    "ethereumjs-wallet": "^0.6.3",
+    "js-sha3": "^0.8.0",
+    "reload": "^3.0.3",
+    "watchify": "^3.11.1"
+  }
+}
